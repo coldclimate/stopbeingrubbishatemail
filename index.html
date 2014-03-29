@@ -8,168 +8,64 @@
     <meta name="description" content="Helpful advice about how to be less rubbish when using email.">
     <meta property="og:title" content="Stop Being Rubbish At Email"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://www.stopbeingrubbishatemail.com/"/>
+    <meta property="og:url" content="http://stopbeingrubbishatemail.com/"/>
     <meta property="og:site_name" content="Stop Being Rubbish At Email"/>
-    <meta property="og:description"
-          content="Helpful advice to stop people sending bad emails"/>
+    <meta property="og:description" content="Helpful advice to stop people sending bad emails"/>
 
-    <!-- Le styles -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 20px;
-        padding-bottom: 40px;
-      }
+    <title>Narrow Jumbotron Template for Bootstrap</title>
 
-      /* Custom container */
-      .container-narrow {
-        margin: 0 auto;
-        max-width: 700px;
-      }
-      .container-narrow > hr {
-        margin: 30px 0;
-      }
-
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        margin: 60px 0;
-        text-align: center;
-      }
-      .jumbotron h1 {
-        font-size: 72px;
-        line-height: 1;
-      }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-      }
-
-      /* Supporting marketing content */
-      .marketing {
-        margin: 60px 0;
-      }
-      .marketing p + h4 {
-        margin-top: 28px;
-      }
-    </style>
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/jumbotron-narrow.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
   </head>
 
   <body>
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=417546831592115"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
-    <div class="container-narrow">
-    <div class="jumbotron">
+  	 <div id="fb-root"></div>
+
+
+    <div class="container">
+
+      <div class="jumbotron">
         <h1>Stop being rubbish at email</h1>
         <p class="lead">You've probably been sent a link here by a friend.  They're trying to help you.</p>
       </div>
 
-      <div class="row-fluid marketing">
-        <div class="accordion" id="accordion2">
-  <div class="accordion-group">
-    <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-        Learn to use BCC
-      </a>
-    </div>
-    <div id="collapseOne" class="accordion-body collapse in">
-      <div class="accordion-inner">
-        <p>When you CC or Carbon Copy everyone into an email they can all see each others email addresses.  If they all know each other, or this is a group discussion this is fine, but where they don't know one another and might not appreciate having their personal details shared, this is bad news.  You've just crapped all over their privacy.</p>
+      <div class="row marketing">
+        <div class="col-lg-12">
+          <h4 id="bcc">Learn to use BCC</h4>
+          <p>When you CC or Carbon Copy everyone into an email they can all see each others email addresses.  If they all know each other, or this is a group discussion this is fine, but where they don't know one another and might not appreciate having their personal details shared, this is bad news.  You've just crapped all over their privacy.</p>
         <p>Blind Carbon Copy means that everybody included can see who emailed them (you) but not each other. Use
          it</p>
+
+          <h4 id="attachments">Don't attach huge files</h4>
+          <p>You might be using broadband but your email might be read on a mobile, or a poor connection and trying to download the huge Word document full of photos you've just attached might take a week.  People also have limited amounts of email they can store in their inbox, and one chunky attachment might just blow that</p>
+
+          <h4 id="caps">DON'T WRITE IN ALL CAPS</h4>
+          <p>It's not more readable, it's not clearer, it doesn't even highlight the important bits. IT'S LIKE BEING SHOUTED AT.</p>
+
+          <h4  id="signature">Your signature is never going to be read</h4>
+          <p>Massive signatures with address, email, website, motto, advice, tips, explanatory notes, images and a helpful reminder not to print this email (Save the trees!) are rarely read.  Your company might require you to have a legal disclaimer but the more you add the less it will be read.</p>
+          
+        <h4 id="forwards">Don't forward circulars without checking them</h4>
+          <p>It is unlikely there is a terrible new virus which is going to spread slower than you can forward this email.  Disney are not giving a $1 to everybody who forward an email. There is not a a perfume salesman in your area using rape drugs.  Check your sources before forwarding such emails, <a href="http://www.snopes.com/">Snopes</a> is an excellent reference.</p>
+          
+        <h4 id="lists">Replying to mailing lists</h4>
+           <p>When replying to a mailing list email remember that all replies act like Reply To All, so unless the messsge is of direct interest to everybody on the list consider "replying off list" by changing the reply to the email address of the person who sent the original message. Most of a technical mailing list doesn't care if you're away that weekend.</p>
+        
+        </div>
       </div>
-    </div>
-  </div>
-
-  <div class="accordion-group">
-    <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-        Don't attach huge files
-      </a>
-    </div>
-    <div id="collapseTwo" class="accordion-body collapse">
-      <div class="accordion-inner">
-        <p>You might be using broadband but your email might be read on a mobile, or a poor connection and trying to download the huge Word document full of photos you've just attached might take a week.  People also have limited amounts of email they can store in their inbox, and one chunky attachment might just blow that</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="accordion-group">
-    <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-       DON'T WRITE IN ALL CAPS
-      </a>
-    </div>
-    <div id="collapseThree" class="accordion-body collapse">
-      <div class="accordion-inner">
-        <p>It's not more readable, it's not clearer, it doesn't even highlight the important bits. IT'S LIKE BEING SHOUTED AT.</p>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="accordion-group">
-    <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-        Your signature is never going to be read
-      </a>
-    </div>
-    <div id="collapseFour" class="accordion-body collapse">
-      <div class="accordion-inner">
-        <p>Massive signatures with address, email, website, motto, advice, tips, explanatory notes, images and a helpful reminder not to print this email (Save the trees!) are rarely read.  Your company might require you to have a legal disclaimer but the more you add the less it will be read.</p>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="accordion-group">
-    <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
-        Don't forward circulars without checking them
-      </a>
-    </div>
-    <div id="collapseFive" class="accordion-body collapse">
-      <div class="accordion-inner">
-        <p>It is unlikely there is a terrible new virus which is going to spread slower than you can forward this email.  Disney are not giving a $1 to everybody who forward an email. There is not a a perfume salesman in your area using rape drugs.  Check your sources before forwarding such emails, <a href="http://www.snopes.com/">Snopes</a> is an excellent reference.</p>
-      </div>
-    </div>
-  </div>
-
-<div class="accordion-group">
-  <div class="accordion-heading">
-    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
-      Replying to mailing lists
-    </a>
-  </div>
-  <div id="collapseSix" class="accordion-body collapse">
-    <div class="accordion-inner">
-      <p>When replying to a mailing list email remember that all replies act like Reply To All, so unless the messsge is of direct interest to everybody on the list consider "replying off list" by changing the reply to the email address of the person who sent the original message. Most of a technical mailing list doesn't care if you're away that weekend.</p>
-    </div>
-  </div>
-</div>
-</div>
-
-      <hr>
 
       <div class="footer">
         <div class="fb-like" data-href="http://www.stopbeingrubbishatemail.com/" data-send="true" data-width="450" data-show-faces="true" data-font="arial"></div>
       </div>
-      <a href="https://github.com/coldclimate/stopbeingrubbishatemail"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
-
+      <a href="https://github.com/coldclimate/stopbeingrubbishatemail"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/assets/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
     </div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=417546831592115"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
 
 <script type="text/javascript">var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-36815791-1']); _gaq.push(['_trackPageview']); (function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script>
   </body>
